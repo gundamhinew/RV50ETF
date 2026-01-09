@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+.env/
+
+# Data (reproducible, do not commit)
+data/raw/
+data/processed/
+
+# IDE
+.idea/
