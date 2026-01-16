@@ -8,7 +8,7 @@ import pandas as pd
 # Project root helper
 # =========================
 def project_root() -> Path:
-    # build_kc50_pressure.py is under RV50ETF/src/features/
+    # build_universe_pressure.py is under RV50ETF/src/features/
     # parents[0]=features, parents[1]=src, parents[2]=RV50ETF
     return Path(__file__).resolve().parents[2]
 
